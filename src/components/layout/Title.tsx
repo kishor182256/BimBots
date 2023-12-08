@@ -40,14 +40,14 @@ class Title extends Component<IProps> {
 		const { visible } = this.state;
 		return (
 			<Flex
-				style={{ background: 'linear-gradient(141deg,#23303e,#404040 51%,#23303e 75%)' }}
+				style={{ background: '#1a73e8' }}
 				flexWrap="wrap"
 				flex="1"
 				alignItems="center"
 			>
 				<Flex style={{ marginLeft: 8 }} flex="0 1 auto">
-					<span style={{ color: '#fff', fontSize: 24, fontWeight: 500 }}>React Design Editor</span>
-					<Tooltip title={i18next.t('action.go-github')} overlayStyle={{ fontSize: 16 }}>
+					<span style={{ color: '#fff', fontSize: 24, fontWeight: 500, }}>BIM-BOTS</span>
+					{/* <Tooltip title={i18next.t('action.go-github')} overlayStyle={{ fontSize: 16 }}>
 						<Button
 							className="rde-action-btn"
 							style={{
@@ -85,7 +85,7 @@ class Title extends Component<IProps> {
 						>
 							<Icon name="question" prefix="fas" size={1.5} />
 						</Button>
-					</Tooltip>
+					</Tooltip> */}
 				</Flex>
 				<Flex style={{ marginLeft: 88 }}>
 					<Menu
@@ -98,9 +98,9 @@ class Title extends Component<IProps> {
 						<Menu.Item key="imagemap" style={{ color: '#fff' }}>
 							{i18next.t('imagemap.imagemap')}
 						</Menu.Item>
-						<Menu.Item key="workflow" style={{ color: '#fff' }}>
+						{/* <Menu.Item key="workflow" style={{ color: '#fff' }}>
 							{i18next.t('workflow.workflow')}
-						</Menu.Item>
+						</Menu.Item> */}
 						{/* <Menu.Item key="flow" style={{ color: '#fff' }}>{i18n.t('flow.flow')}</Menu.Item> */}
 						{/* <Menu.Item key="hexgrid" style={{ color: '#fff' }}>
 							{i18next.t('hexgrid.hexgrid')}

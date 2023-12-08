@@ -712,7 +712,7 @@ class ImageMapEditor extends Component {
 					descriptors={descriptors}
 				/>
 				<div className="rde-editor-canvas-container">
-					<div className="rde-editor-header-toolbar">
+					<div className="rde-editor-header-toolbar" style={{display:"none"}}>
 						<ImageMapHeaderToolbar
 							canvasRef={this.canvasRef}
 							selectedItem={selectedItem}

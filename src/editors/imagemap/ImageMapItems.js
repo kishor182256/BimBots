@@ -271,15 +271,15 @@ class ImageMapItems extends Component {
 		return (
 			<div className={className}>
 				<Flex flex="1" flexDirection="column" style={{ height: '100%' }}>
-					<Flex justifyContent="center" alignItems="center" style={{ height: 40 }}>
-						<CommonButton
+					<Flex justifyContent="center" alignItems="center" style={{ height: 40,display:"none" }}>
+						{/* <CommonButton
 							icon={collapse ? 'angle-double-right' : 'angle-double-left'}
 							shape="circle"
 							className="rde-action-btn"
 							style={{ margin: '0 4px' }}
 							onClick={this.handlers.onCollapse}
-						/>
-						{collapse ? null : (
+						/> */}
+						{/* {collapse ? null : (
 							<Input
 								style={{ margin: '8px' }}
 								placeholder={i18n.t('action.search-list')}
@@ -287,7 +287,7 @@ class ImageMapItems extends Component {
 								value={textSearch}
 								allowClear
 							/>
-						)}
+						)} */}
 					</Flex>
 					<Scrollbar>
 						<Flex flex="1" style={{ overflowY: 'hidden' }}>

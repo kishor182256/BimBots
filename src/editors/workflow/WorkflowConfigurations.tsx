@@ -48,7 +48,7 @@ class WorkflowConfigurations extends Component<IProps> {
 			minimize: collapse,
 		});
 		return (
-			<div className={className}>
+			<div className={className} style={{display:"none"}}>
 				<CommonButton
 					className="rde-action-btn"
 					shape="circle"

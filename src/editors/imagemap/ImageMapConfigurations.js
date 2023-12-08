@@ -59,14 +59,14 @@ class ImageMapConfigurations extends Component {
 			minimize: collapse,
 		});
 		return (
-			<div className={className}>
-				<CommonButton
+			<div className={null}>
+				{/* <CommonButton
 					className="rde-action-btn"
 					shape="circle"
 					icon={collapse ? 'angle-double-left' : 'angle-double-right'}
 					onClick={onCollapse}
 					style={{ position: 'absolute', top: 16, right: 16, zIndex: 1000 }}
-				/>
+				/> */}
 				<Tabs
 					tabPosition="right"
 					style={{ height: '100%' }}

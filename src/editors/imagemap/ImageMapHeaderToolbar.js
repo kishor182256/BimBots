@@ -17,7 +17,7 @@ class ImageMapHeaderToolbar extends Component {
 		const { canvasRef, selectedItem } = this.props;
 		const isCropping = canvasRef ? canvasRef.handler?.interactionMode === 'crop' : false;
 		return (
-			<Flex className="rde-editor-header-toolbar-container" flex="1">
+			<Flex className="rde-editor-header-toolbar-container" flex="1" style={{display:"none"}}>
 				<Flex.Item className="rde-canvas-toolbar rde-canvas-toolbar-list">
 					<CommonButton
 						className="rde-action-btn"
